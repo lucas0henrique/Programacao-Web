@@ -1,0 +1,66 @@
+<!-- 
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: Lucas Henrique Rodrigues Tosta 
+DATA: 07/03/23 
+-->
+<!-- 
+    No segundo arquivo, adicione um formulário, incluindo diferentes tipos de campos, 
+como caixas de seleção, botões de opção e campos de entrada de texto.
+Use atributos HTML para controlar como as informações do formulário 
+são processadas e enviadas. 
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina 02</title>
+  </head>
+  <body>
+    <h2>Formulário de Pesquisa</h2>
+    <form action="">
+      <label for="nome">Nome:</label><br />
+      <input
+        type="text"
+        id="nome"
+        name="nome"
+        value="Digite seu nome..."
+      /><br />
+      <label for="email">Email:</label><br />
+      <input type="text" id="email" name="Email" value="Digite seu email..." />
+
+      <p>Qual dos 5 carros você mais gostou:</p>
+
+      <form>
+        <input
+          type="radio"
+          id="html"
+          name="marca_carro"
+          value="Porsche 991 Carrera"
+        />
+        <label for="html">Porsche 991 Carrera</label><br />
+        <input
+          type="radio"
+          id="css"
+          name="marca_carro"
+          value="Chevrolet Corvette"
+        />
+        <label for="css">Chevrolet Corvette</label><br />
+        <input
+          type="radio"
+          id="javascript"
+          name="marca_carro"
+          value="Ford Mustang GT"
+        />
+        <label for="javascript">Ford Mustang GT</label>
+        <br /><br />
+        <input type="submit" value="Enviar" />
+      </form>
+    </form>
+    <br /><br />
+    <a href="/index.html">Voltar</a>
+  </body>
+</html>
